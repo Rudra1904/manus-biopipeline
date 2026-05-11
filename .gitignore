@@ -1,0 +1,37 @@
+# Secrets — never commit
+.env
+*.key
+*.pem
+secrets/
+
+# Raw data — too large for git
+data/
+*.parquet
+*.csv
+*.json.gz
+*.zip
+datagen_scripts.zip
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.eggs/
+dist/
+build/
+*.whl
+
+# Jupyter / Databricks exports
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*~

@@ -1,0 +1,29 @@
+# Core data
+pandas>=2.0
+numpy>=1.24
+pyarrow>=14.0          # Parquet read/write
+tqdm>=4.66
+
+# Sources
+kafka-python>=2.0
+fastapi>=0.110
+uvicorn>=0.27
+
+# PySpark (local dev; Databricks cluster has its own)
+pyspark>=3.5
+
+# Quality
+great-expectations>=0.18
+
+# Database
+sqlalchemy>=2.0        # JDBC-pattern SQLite access
+
+# Databricks SDK (optional — for workflow automation)
+databricks-sdk>=0.20
+
+# Testing
+pytest>=8.0
+pytest-cov>=4.1
+
+# Linting
+ruff>=0.3
