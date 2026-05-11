@@ -87,6 +87,11 @@ SELECT
     e.full_name,
     e.area,
     e.scale_level,
+    CASE
+        WHEN e.scale_level = 'lab'           THEN 1
+        WHEN e.scale_level = 'pilot'         THEN 2
+        WHEN e.scale_level = 'manufacturing' THEN 3
+    END                                       AS scale_order,
     e.volume_l,
     -- Maintenance stats
     COALESCE(m.total_wo_count,        0)    AS total_wo_count,
