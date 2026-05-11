@@ -56,6 +56,13 @@ pytest tests/
 
 ## Dashboard
 
-Power BI Desktop connects to Databricks SQL warehouse (Gold schema). See `dashboard/connection_guide.md`.
+Power BI Desktop connects to Databricks SQL warehouse (`workspace.gold.*`).
 
-Pages: BioOptimization Cycle · Scale Translation · Batch Operations · Equipment OEE · Supply Chain Risk
+### BioOptimization Cycle
+![BioOptimization Cycle](assets/dashboard_biooptimization_cycle.png)
+
+### Equipment OEE
+![Equipment OEE](assets/dashboard_equipment_oee.png)
+
+### Supply Chain Risk
+![Supply Chain Risk](assets/dashboard_supply_risk.png)
