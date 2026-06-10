@@ -58,6 +58,9 @@ pytest tests/
 
 Power BI Desktop connects to Databricks SQL warehouse (`workspace.gold.*`).
 
+### Scorecard
+![Scorecard]("C:\Rudra\MS\UIC\4th sem\manus-biopipeline\assets\01_Scorecard.png")
+
 ### BioOptimization Cycle
 ![BioOptimization Cycle](assets/dashboard_biooptimization_cycle.png)
 
