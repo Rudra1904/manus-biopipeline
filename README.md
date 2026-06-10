@@ -56,16 +56,34 @@ pytest tests/
 
 ## Dashboard
 
-Power BI Desktop connects to Databricks SQL warehouse (`workspace.gold.*`).
+Power BI Desktop connects to Databricks SQL Warehouse (`workspace.gold.*`).
 
-### Scorecard
-![Scorecard]("C:\Rudra\MS\UIC\4th sem\manus-biopipeline\assets\01_Scorecard.png")
+4-page leadership dashboard answering three pre-campaign readiness questions.
 
-### BioOptimization Cycle
-![BioOptimization Cycle](assets/dashboard_biooptimization_cycle.png)
+---
 
-### Equipment OEE
-![Equipment OEE](assets/dashboard_equipment_oee.png)
+### Page 0 — Production Readiness Scorecard
+Answers: **Should we start the next campaign?**
 
-### Supply Chain Risk
-![Supply Chain Risk](assets/dashboard_supply_risk.png)
+![Scorecard](assets/01_Scorecard.png)
+
+---
+
+### Page 1 — Is the BioOptimization Cycle Working?
+Answers: **Is our strain engineering delivering improvement generation over generation?**
+
+![BioOptimization](assets/02_BioOptimization.png)
+
+---
+
+### Page 2 — Is the Fleet Ready to Run?
+Answers: **Can we commit to the next campaign without equipment risk?**
+
+![Equipment](assets/03_Equipment.png)
+
+---
+
+### Page 3 — Raw Material Risk — Pre-Campaign Check
+Answers: **Do we have enough materials to complete the campaign?**
+
+![Supply Chain](assets/04_SupplyChain.png)
